@@ -47,7 +47,7 @@ class Channel extends React.Component {
 		Cookies.set("attendeeMode", this.state.attendeeMode);
 		Cookies.set("videoProfile", this.state.videoProfile);
 		if (this.state.baseMode === "avc") {
-			window.location.hash = `classroom/${this.state.channel}`;
+			window.location.hash = `tutoring/${this.state.channel}`;
 		} else {
 			window.location.hash = `tutoring/${this.state.channel}`;
 		}
