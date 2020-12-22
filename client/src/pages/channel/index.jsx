@@ -81,10 +81,10 @@ class Channel extends React.Component {
 					<section className='login-wrapper'>
 						<div className='login-header'>
 							<p className='login-title'>
-								Welcome to Atlas, {this.state.email}
+								Merry Christmas! {this.state.email}
 							</p>
 							<p className='login-subtitle'>
-								How Would You Like To Learn Today?
+								Let's Chat!
 							</p>
 						</div>
 						<div className='login-body'>
@@ -92,27 +92,14 @@ class Channel extends React.Component {
 								<div className='column is-12'>
 									<InputChannel
 										onChange={this.handleChannel}
-										placeholder='Enter or generate channel'
+										placeholder='Enter Irland (with a capital I)'
 									></InputChannel>
 									<div className='login-footer'>
-										<a
-											id='generateChannel'
-											onClick={this.handleGenerateChannel}
-											className='ag-rounded button is-info'
-										>
-											Generate Secure Room Name
-										</a>
+										
 									</div>
 								</div>
 							</div>
-							<div className='columns'>
-								<div className='column is-7'>
-									<BaseOptions
-										onChange={(val) => this.setState({ baseMode: val })}
-									/>
-								</div>
-								
-							</div>
+							
 							<div className='columns'>
 								<div className='column'>
 									
@@ -126,7 +113,7 @@ class Channel extends React.Component {
 								disabled={!this.state.joinBtn}
 								className='ag-rounded button is-info'
 							>
-								Join
+								Click Here After You Enter Irland
 							</a>
 						</div>
 					</section>
